@@ -15,7 +15,7 @@ const Home = () => {
             to encourage them in the advancement of their lives through
             technologies developed in Prakarsh by students.{" "}
           </p>
-          <div className="glow">
+          <div className="glow mx-auto d-flex align-items-center justify-content-center">
             <span class="fast-flicker glow ">co</span>mi
             <span class="flicker glow ">n</span>gs
             <span class="flicker glow ">oo</span>n
