@@ -9,7 +9,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
-import belowfooterlogo from "../../assets/belowfooterlogo.png";
+import belowfooterlogo from "../../assets/belowfooterlogo.svg";
 
 import svit from '../../assets/svitlogo.png'
 
