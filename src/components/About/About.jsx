@@ -20,8 +20,8 @@ const About = () => {
         <div
           className="about__content"
           data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-delay="600"
+          // data-aos-offset="300"
+          // data-aos-delay="600"
           data-aos-easing="ease-in-sine"
         >
           <p>
@@ -42,8 +42,8 @@ const About = () => {
           className="about__img"
           data-aos="fade-left"
           // data-aos-anchor="#example-anchor"
-          data-aos-offset="300"
-          data-aos-delay="500"
+          // data-aos-offset="300"
+          // data-aos-delay="500"
           data-aos-duration="300"
         >
           <div className="img">

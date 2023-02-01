@@ -3,15 +3,15 @@ import GlimpseCard from "./GlimpseCard";
 import "./Glimpse.css";
 const Events = [
   {
-    EventimageSource: "assests/Glimpse/DSC_2471.jpg",
+    EventimageSource: "assests/Glimpse/DSC_2546.jpg",
     key: 1,
     Animation: "fade-right",
   },
-  {
-    EventimageSource: "assests/Glimpse/DSC_2546.jpg",
-    key: 2,
-    Animation: "flip-up",
-  },
+  // {
+  //   EventimageSource: "assests/Glimpse/DSC_2546.jpg",
+  //   key: 2,
+  //   Animation: "flip-up",
+  // },
   {
     EventimageSource: "assests/Glimpse/DSC_2757.jpg",
     key: 3,
