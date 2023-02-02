@@ -53,6 +53,7 @@
 .belowhr {
     border-top: 0.1px solid grey;
     display: flex;
+    padding: 10px;
     justify-content: center;
 }
 

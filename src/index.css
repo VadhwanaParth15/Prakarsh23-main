@@ -120,7 +120,6 @@ img {
         font-size: 80px;
         margin: 0;
         padding: 0;
-        height: fit-content;
     }
     .front-text {
         font-size: 20px;
@@ -138,10 +137,13 @@ img {
     .heading .abouthead {
         font-size: 60px;
         margin: 0;
-        height: fit-content;
+        height: 180px;
     }
     .front-text {
         font-size: 15px;
         top: 135px;
+    }
+    section {
+        margin-top: 0;
     }
 }

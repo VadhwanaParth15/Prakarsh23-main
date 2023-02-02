@@ -24,11 +24,11 @@ function Footer() {
             <img src={footer} />
           </div>
           <div className="right">
-            <h1>
+            {/* <h1>
               <b> contact us </b>{" "}
-            </h1>
+            </h1> */}
             <div className="finfo">
-              <a href="#" className="flinks">
+              {/* <a href="#" className="flinks">
                 {" "}
                 <IoLocationSharp className="ficons" />
                 Sardar Vallabhai Patel institute of Technology{" "}
@@ -41,9 +41,9 @@ function Footer() {
               <a href="#" className="flinks">
                 {" "}
                 <AiFillPhone className="ficons" /> 0123456789{" "}
-              </a>
+              </a> */}
 
-              <div className="icon">
+              <div className="icon mx-auto d-flex align-items-center justify-content-center p-2">
                 <a href="">
                   <BsInstagram />
                 </a>
