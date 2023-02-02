@@ -3,17 +3,20 @@
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 50% 35%;
-    grid-template-rows: 70% 10%;
-    gap: 10%;
+    display: flex;
+    /* grid-template-columns: 50% 35%; */
+    /* grid-template-rows: 70% 10%; */
+    /* gap: 10%; */
     /* margin-top: 10rem; */
     background: black;
     color: white;
-    padding-top: 3em;
+    padding-top: 1em;
     position: relative;
     bottom: 0;
     width: 100%;
+    flex-direction: column;
+    /* margin-left: 1rem; */
+    padding-left: 9rem;
 }
 
 .ficons {
@@ -74,7 +77,9 @@
 
 @media (max-width: 600px) {
     .footer {
-        display: block;
+       display: flex;
+       flex-direction: column;
+       padding-left: 0rem;
     }
     .left img {
         width: 91vw;
