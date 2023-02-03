@@ -31,9 +31,9 @@ const Home = () => {
             data-aos="zoom-in-down"
             data-aos-mirror="true"
           >
-            <video width='600px' src={video} autoPlay muted/>
+            {/* <video width='600px' src={video} autoPlay muted/> */}
 
-            {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
+            <img src={IMG} style={{repeat:'no-repeat'}} alt="" />
             {/* <p>1-2 April</p> */}
          </div>
         </div>
