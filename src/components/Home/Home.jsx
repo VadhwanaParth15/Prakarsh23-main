@@ -1,7 +1,9 @@
 import React from "react";
 import "./Home.css";
 import IMG from "../../assets/logo.svg";
+import IMGGIF from '../../assets/loader-unscreen.gif'
 import Title from "../../assets/title.png";
+import video from "../../assets/logo.mp4";
 const Home = () => {
   return (
     <section id="home">
@@ -23,20 +25,19 @@ const Home = () => {
           <div className="home__btn"></div>
         </div>
 
-        {/* <div className="home__logo">
+        <div className="home__logo">
           <div
             className="home__logo-img"
             data-aos="zoom-in-down"
             data-aos-mirror="true"
           >
-            <img src={IMG} alt="" />
-          </div>
-        </div> */}
-        
-        {/* <div className ="vlogo">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/oauaSJ_r2GA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <video src={video} autoPlay muted/>
+
+            {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
+            {/* <p>1-2 April</p> */}
+         </div>
         </div>
-      </div> */}
+        </div>
     </section>
   );
 };

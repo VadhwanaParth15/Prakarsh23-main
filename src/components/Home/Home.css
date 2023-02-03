@@ -3,6 +3,15 @@
     overflow: hidden;
 }
 
+
+/* .imageholder {
+    width: 500px;
+    height: 477px;
+    background: url("../../assets/loader.mp4") no-repeat center;
+    background-position: center center;
+    background-size: cover;
+} */
+
 .home__container {
     display: grid;
     grid-template-columns: 50% 35%;
