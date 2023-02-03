@@ -1,7 +1,9 @@
 import React from "react";
 import "./Home.css";
 import IMG from "../../assets/logo.svg";
+import IMGGIF from '../../assets/loader-unscreen.gif'
 import Title from "../../assets/title.png";
+import video from "../../assets/loader.mp4";
 const Home = () => {
   return (
     <section id="home">
@@ -29,7 +31,11 @@ const Home = () => {
             data-aos="zoom-in-down"
             data-aos-mirror="true"
           >
-            <img src={IMG} alt="" />
+              {/* <video width='500px' height="500px">
+                <source src={video} type="video/ogg" />
+              </video> */}
+
+            <img src={IMG} style={{repeat:'no-repeat'}} alt="" />
             {/* <p>1-2 April</p> */}
           </div>
         </div>
