@@ -23,17 +23,20 @@ const Home = () => {
           <div className="home__btn"></div>
         </div>
 
-        <div className="home__logo">
+        {/* <div className="home__logo">
           <div
             className="home__logo-img"
             data-aos="zoom-in-down"
             data-aos-mirror="true"
           >
             <img src={IMG} alt="" />
-            {/* <p>1-2 April</p> */}
           </div>
+        </div> */}
+        
+        {/* <div className ="vlogo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oauaSJ_r2GA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
