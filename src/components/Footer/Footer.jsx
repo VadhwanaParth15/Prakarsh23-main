@@ -44,16 +44,16 @@ function Footer() {
               </a> */}
 
               <div className="icon mx-auto d-flex align-items-center justify-content-center p-2">
-                <a href="">
+                <a href="https://instagram.com/svitprakarsh?igshid=OGQ2MjdiOTE=">
                   <BsInstagram />
                 </a>
-                <a href="">
+                <a href="https://www.youtube.com/@prakarsh6253/videos">
                   <AiOutlineYoutube />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/placement-cell-svit-vasad-2a8062204/">
                   <AiFillLinkedin />
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/SVIT.Vasad.Official">
                   <AiFillFacebook />
                 </a>
               </div>
