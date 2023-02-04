@@ -9,7 +9,7 @@ const Home = () => {
       <div className="container home__container">
         <div className="home__content">
           <div className="home__title">
-            <img src={Title} />
+            <img src={Title} alt='title'/>
           </div>
           <p>
             Prakarsh ‘23’s vision is to assist the rural areas, and villages and
