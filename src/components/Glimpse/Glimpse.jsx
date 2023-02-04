@@ -3,7 +3,7 @@ import GlimpseCard from "./GlimpseCard";
 import "./Glimpse.css";
 const Events = [
   {
-    EventimageSource: "assests/Glimpse/DSC_2546.jpg",
+    EventimageSource: "assests/Glimpse/1 (1).jpg",
     key: 1,
     Animation: "fade-right",
   },
@@ -13,32 +13,32 @@ const Events = [
   //   Animation: "flip-up",
   // },
   {
-    EventimageSource: "assests/Glimpse/DSC_2757.jpg",
+    EventimageSource: "assests/Glimpse/1 (2).jpg",
     key: 3,
     Animation: "flip-down",
   },
   {
-    EventimageSource: "assests/Glimpse/DSC_2851.jpg",
+    EventimageSource: "assests/Glimpse/1 (3).jpg",
     key: 4,
     Animation: "fade-left",
   },
   {
-    EventimageSource: "assests/Glimpse/DSC_2856.jpg",
+    EventimageSource: "assests/Glimpse/1 (4).jpg",
     key: 5,
     Animation: "fade-right",
   },
   {
-    EventimageSource: "assests/Glimpse/DSC_2944.jpg",
+    EventimageSource: "assests/Glimpse/1 (5).jpg",
     key: 6,
     Animation: "flip-up",
   },
   {
-    EventimageSource: "assests/Glimpse/DSC_3605.jpg",
+    EventimageSource: "assests/Glimpse/1 (6).jpg",
     key: 7,
     Animation: "flip-down",
   },
   {
-    EventimageSource: "assests/Glimpse/DSC_3754.jpg",
+    EventimageSource: "assests/Glimpse/1 (7).jpg",
     key: 8,
     Animation: "fade-left",
   },

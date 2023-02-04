@@ -5,13 +5,13 @@
     src: url(../src/assets/ValorantFont.ttf);
 }
 
-.loader {
+/* .loader {
     width: 100vw;
     position: relative;
     height: 100vh;
     z-index: 99999;
     background: black url('../src/assets/loader-unscreen.gif') no-repeat center;
-}
+} */
 
 @font-face {
     font-family: clips;
