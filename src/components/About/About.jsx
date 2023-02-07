@@ -34,7 +34,7 @@ const About = () => {
             It is a perfect launch pad for tech geeks to showcase their
             intelligence and innovativeness, and a massive platform for various
             activities and events combined with loads of entertainment. Prakarsh
-            2023 will be held on 23-25 Feb and will feature an impressive lineup
+            2023 will be held on 5-7 Apr. and will feature an impressive lineup
             of 40 events, which will incorporate fun activities with ardour.
           </p>
         </div>
