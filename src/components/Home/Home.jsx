@@ -9,7 +9,7 @@ const Home = () => {
       <div className="container home__container">
         <div className="home__content">
           <div className="home__title">
-            <img src={Title} alt='title'/>
+            <img src={Title} alt="title" />
           </div>
           <p>
             Prakarsh ‘23’s vision is to assist the rural areas, and villages and
@@ -30,13 +30,13 @@ const Home = () => {
             data-aos="zoom-in-down"
             data-aos-mirror="true"
           >
-            {/* <video width='600px' src={video} autoPlay muted/> */}
+            <video width="600px" src={video} autoPlay muted />
 
-            <img src={IMG} style={{repeat:'no-repeat'}} alt="" />
+            {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
             {/* <p>1-2 April</p> */}
-         </div>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
   );
 };

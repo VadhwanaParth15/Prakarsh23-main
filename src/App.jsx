@@ -10,25 +10,26 @@ import { NavBar } from "./components/Nav/NavBar";
 import Glimpse from "./components/Glimpse/Glimpse";
 import { render } from "@testing-library/react";
 const App = () => {
-
   const divRef = useRef();
 
   function myFunction() {
-    const timer = setTimeout(() => {divRef.current.style.display = "none";}, 2000);
-    console.log('hello');
+    const timer = setTimeout(() => {
+      divRef.current.style.display = "none";
+    }, 2000);
+    console.log("hello");
   }
   return (
-    <div  onLoad={myFunction}>
-        {/* <div className="loader" ref={divRef}>
+    <div onLoad={myFunction}>
+      {/* <div className="loader" ref={divRef}>
         </div> */}
-        <NavBar/>
-        <Home/>
-        <About />
-        {/* <Event />
-        <Team /> */}
-        {/* <Sponsor /> */}
-        <Glimpse />
-        <Footer />
+      <NavBar />
+      <Home />
+      <About />
+      {/* <Event /> */}
+      {/* <Team /> */}
+      {/* <Sponsor /> */}
+      <Glimpse />
+      <Footer />
     </div>
   );
 };
