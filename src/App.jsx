@@ -8,7 +8,7 @@ import Event from "./components/Events/Event";
 import Sponsor from "./components/Sponsor/Sponsor";
 import { NavBar } from "./components/Nav/NavBar";
 import Glimpse from "./components/Glimpse/Glimpse";
-import { render } from "@testing-library/react";z
+import { render } from "@testing-library/react";
 const App = () => {
 
   const divRef = useRef();
